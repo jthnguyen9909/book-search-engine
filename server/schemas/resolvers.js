@@ -16,7 +16,6 @@ const resolvers = {
       throw new AuthenticationError("Not logged in");
     },
   },
-
   Mutation: {
     register: async (parent, args) => {
       const user = await User.create(args);
@@ -28,13 +27,13 @@ const resolvers = {
       const user = await User.findOne({ email });
 
       if (!user) {
-        throw new AuthenticationError("Login failed.");
+        throw new AuthenticationError("No user with this email found!");
       }
 
       const correctPw = await user.isCorrectPassword(password);
 
       if (!correctPw) {
-        throw new AuthenticationError("Login failed.");
+        throw new AuthenticationError("Incorrect password!");
       }
 
       const token = signToken(user);
