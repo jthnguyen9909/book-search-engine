@@ -1,0 +1,2 @@
+LOCAL_URI=mongodb://127.0.0.1:27017/booksDB
+SECRET=1384073rse9r3918ry749eu
