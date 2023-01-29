@@ -21,6 +21,10 @@ When the user visits the webpage, they are presented with a search bar, as the d
 
 ![Alt text](./assets/images/sc1.png "Application Screenshot 1")
 ![Alt text](./assets/images/sc2.png "Application Screenshot 2")
+![Alt text](./assets/images/sc3.png "Application Screenshot 3")
+![Alt text](./assets/images/sc4.png "Application Screenshot 4")
+![Alt text](./assets/images/sc5.png "Application Screenshot 5")
+
 
 ## License
 
