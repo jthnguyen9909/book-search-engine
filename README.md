@@ -34,6 +34,12 @@ This project is licensed under the MIT license.
 
 ## Credits
 
+React.js
+
+MongoDB
+
+GraphQL
+
 Google Books API
 
 ## Questions
